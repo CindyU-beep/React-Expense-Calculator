@@ -1,0 +1,7 @@
+{
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-vscode.js-debug",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
