@@ -1,5 +1,7 @@
-import Expenses from "./components/Expenses";
-function App() {
+import Expenses from "./components/Expenses/Expenses";
+
+
+const App = () => { //alternative syntax using arrow functions
 
   const expenses = [
     { 
@@ -8,7 +10,7 @@ function App() {
       date: new Date(2022, 1, 28) 
     },
     { 
-      title: "Rent", 
+      title: "Rent",  
       amount: 500, 
       date: new Date(2022, 1, 30) 
     },
