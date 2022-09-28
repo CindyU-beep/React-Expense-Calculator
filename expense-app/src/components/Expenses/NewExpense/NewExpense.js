@@ -1,13 +1,14 @@
 //render a form where users can enter their form data 
-import './NewExpense.css'
+import './NewExpense.css';
+import ExpenseForm from "./ExpenseForm";
 
 const NewExpense = () => {
 
     return(
     
     <div>
-        <form></form>
-
+        <ExpenseForm/> 
+ 
     </div>
 
     );
