@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ExpenseForm.css';
 
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
     const [userInput, setUserInput] = useState({
         enteredTitle:"",
         enteredAmount: "",
@@ -36,8 +36,11 @@ const ExpenseForm = () => {
             date: userInput.enteredDate,
         }
 
+        props.onSaveExpenseData(expenseData);
+        //reset component
+        setUserInput({enteredTitle: '', enteredAmount : '',enteredDate :''})
 
-        console.log(expenseData)
+        
     };
 
 
@@ -46,18 +49,31 @@ const ExpenseForm = () => {
             <div className="new-expense__controls">
                 <div className="new-expense__controls"> 
                     <label>Title</label>
-                    <input type="text" onChange={titleChangeHandler}/> {//adding in event listener onChange
+                    <input 
+                        type="text" 
+                        value={userInput.enteredTitle} 
+                        onChange={titleChangeHandler} 
+                    /> {//adding in event listener onChange
                     }
                 </div>
 
                 <div className="new-expense__controls">
                     <label>Amount</label>
-                    <input type="number" min="0.01" step="0.01" onChange={amountChangeHandler}/>
+                    <input 
+                        type="number" min="0.01" step="0.01" 
+                        value ={userInput.enteredAmount} 
+                        onChange={amountChangeHandler}
+                    />
                 </div>
 
                 <div className="new-expense__controls">
                     <label>Date</label>
-                    <input type="date" min="2022-01-01" max="2022-12-31" onChange={dateChangeHandler}/>
+                    <input 
+                        type="date" 
+                        min="2022-01-01" max="2022-12-31" 
+                        value ={userInput.enteredDate} 
+                        onChange={dateChangeHandler}
+                    />
                 </div>
 
                 <div className="new-expense__actions">
