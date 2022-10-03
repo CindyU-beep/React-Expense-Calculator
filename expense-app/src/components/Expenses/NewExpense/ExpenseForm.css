@@ -6,21 +6,29 @@
     text-align: left;
   }
   
-  .new-expense__control label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    display: block;
-  }
-  
-  .new-expense__control input {
+  .new-expense__controls input {
     font: inherit;
-    padding: 0.5rem;
+    font-size: small;
+    width: fit-content;
     border-radius: 6px;
-    border: 1px solid #ccc;
-    width: 20rem;
+    border: 1px solid rgb(255, 255, 255);
     max-width: 100%;
+    color:rgb(110, 108, 108);
+  }
+  .new-expense__controls label {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
   }
   
   .new-expense__actions {
     text-align: right;
+  }
+
+  .new-expense__actions button {
+    font-weight: bold;
+    font-size:small;
+    border-radius: 12px;
+    text-align: center;
   }

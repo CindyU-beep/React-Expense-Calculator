@@ -5,6 +5,7 @@ import ExpenseFilter from './ExpenseFilter';
 import Card from '../UI/CardObj';
 import './Expenses.css';
 
+
 function Expenses(props){
 
   const [filteredYear, setFiltereedYear] = useState('2022'); //sets the default value of filter
@@ -18,9 +19,10 @@ function Expenses(props){
       
       <div>
         <Card className="expenses">
-          <ExpenseFilter selected={filteredYear} onChangeFilter={filterChangeHandler} />
+          <ExpenseFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
           {props.items.map((expense) => (
-            <ExpenseItem 
+            <ExpenseItem
+              key={expense.id}
               title={expense.title}
               amount={expense.amount}
               date={expense.date}

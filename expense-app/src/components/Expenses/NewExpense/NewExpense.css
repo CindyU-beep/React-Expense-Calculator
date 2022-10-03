@@ -36,3 +36,8 @@
   .new-expense button.alternative:active {
     background-color: #B1D8B7;
   }
+
+  .new-expense input {
+    font:inherit;
+    color: darkgray;
+  }
