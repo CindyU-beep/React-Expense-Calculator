@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/Expenses/NewExpense/NewExpense"
-
+import background from './background.jpg'
 const DUMMY_EXPENSE_DATA = [
   { 
     id: 'e1',
@@ -34,7 +34,8 @@ const App = () => { //alternative syntax using arrow functions
   };
 
   return (
-    <div>
+    <div style={{backgroundImage:`url(${background})`, backgroundSize:"contain"}}>
+      
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses}/>
     </div>
