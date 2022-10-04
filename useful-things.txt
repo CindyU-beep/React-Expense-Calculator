@@ -3,3 +3,4 @@ kill -9 UID
 
 
 colour pallete: https://www.canva.com/colors/color-palettes/green-blaze/ 
+background art: @mariadetarosarinda
