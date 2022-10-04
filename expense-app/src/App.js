@@ -35,7 +35,6 @@ const App = () => { //alternative syntax using arrow functions
 
   return (
     <div style={{backgroundImage:`url(${background})`, backgroundSize:"contain"}}>
-      
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses}/>
     </div>
