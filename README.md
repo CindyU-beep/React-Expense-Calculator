@@ -1,6 +1,5 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is a simple expense calculator. 
+A simple React Expense Calculator. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 **Key Concepts I Experimented with:**
 - Implementing React Components and Child-Parent Components 
