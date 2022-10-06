@@ -2,11 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-expense-app/src/Expense Calculator.png
-
+![image](https://github.com/CindyU-beep/React-Expense-Calculator/blob/main/expense-app/src/Expense%20Calculator.png)
 ## References
 
-Colour Pallete: https://www.canva.com/colors/color-palettes/green-blaze/ 
+Colour Pallete: https://www.canva.com/colors/color-palettes/green-blaze/ \
 Background Art: @mariadetarosarinda
 
 ## Available Scripts
