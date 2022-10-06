@@ -1,12 +1,17 @@
 # Getting Started with Create React App
+A simple React Expense Calculator. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Key Concepts I Experimented with:**
+- Implementing React Components and Child-Parent Components 
+- Dynamic Data and JSX Expressions 
+- Working with React Stateful/Stateless, Controlled/Uncontrolled Components 
+- Handling Form Submissions 
+- React Hooks 
 
-expense-app/src/Expense Calculator.png
-
+![image](https://github.com/CindyU-beep/React-Expense-Calculator/blob/main/expense-app/src/Expense%20Calculator.png)
 ## References
 
-Colour Pallete: https://www.canva.com/colors/color-palettes/green-blaze/ 
+Colour Pallete: https://www.canva.com/colors/color-palettes/green-blaze/ \
 Background Art: @mariadetarosarinda
 
 ## Available Scripts
