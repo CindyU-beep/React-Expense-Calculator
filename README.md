@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+expense-app/src/Expense Calculator.png
+
+## References
+
+Colour Pallete: https://www.canva.com/colors/color-palettes/green-blaze/ 
+Background Art: @mariadetarosarinda
+
 ## Available Scripts
 
 In the project directory, you can run:

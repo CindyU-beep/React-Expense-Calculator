@@ -5,6 +5,8 @@
   padding: 0.5rem;
   margin: 1rem 0;
   background-color: #B1D8B7;
+  margin: 10s 5rem;
+
 }
 
 .expense-item__description {
@@ -21,8 +23,9 @@
   color: #88CA5E;
   font-size: 1rem;
   flex: 1;
-  margin: 0 1rem;
+  margin: 10s 5rem;
   color: white;
+  padding: 2%;
 }
 
 .expense-item__price {
@@ -32,6 +35,7 @@
   background-color: #88CA5E;
   border: 1px solid white;
   border-radius: 12px;
+  align-items: center;
 }
 
 @media (min-width: 580px) {
